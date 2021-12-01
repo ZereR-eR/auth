@@ -11,7 +11,7 @@
                     <div class="card mb-3">
                         <div class="card-body text-dark">
                             <div class="d-flex align-items-center justify-content-between">
-                                <h4>{{ $article->name }}</h4>
+                                <h4>{{ $article->title }}</h4>
                                 <small class="badge bg-secondary">{{ $article->category->title }}</small>
                             </div>
                             <p>{{ $article->description }}</p>
